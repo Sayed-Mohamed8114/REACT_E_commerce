@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { getAllProducts } from "./Services/Products";
+import Loader from "./Components/common/Loader/Loader";
 function App() {
   const getAllData = async () => {
     const response = await getAllProducts();
@@ -11,6 +12,7 @@ function App() {
   },[])
 
   return <>
+  <Loader/>
   </>;
 }
 

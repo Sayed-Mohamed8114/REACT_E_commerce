@@ -1,1 +1,4 @@
-@import 'tailwindcss';
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap");@import "tailwindcss";
+@theme {
+  --font-spray: "Rubik Spray Paint", sans-serif;
+}

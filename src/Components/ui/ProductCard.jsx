@@ -31,7 +31,7 @@ export default function ProductCard({ product }) {
           </button>
           <span className="text-lg font-bold text-green-50">
             <span>{product.rating.rate}★ </span> of
-            <span> {product.rating.count} Rate</span>
+            <span> {product.rating.count} Rates</span>
           </span>
         </div>
       </div>

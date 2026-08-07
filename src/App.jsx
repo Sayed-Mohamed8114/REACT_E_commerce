@@ -1,18 +1,9 @@
-import { useEffect } from "react";
-import { getAllProducts } from "./Services/Products";
-import Products from "./pages/Products/Products";
+import AppRouter from "./Routes/AppRouter";
+
 function App() {
-  const getAllData = async () => {
-    const response = await getAllProducts();
-    console.log(response);
-    console.log(response.data);
-  };
-  useEffect(()=>{
-    getAllData()
-  },[])
 
   return (
-    <Products/>
+    <AppRouter/>
   );
 }
 

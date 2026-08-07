@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { getAllProducts } from "./Services/Products";
-import Loader from "./Components/common/Loader/Loader";
+import Products from "./pages/Products/Products";
 function App() {
   const getAllData = async () => {
     const response = await getAllProducts();
@@ -11,9 +11,9 @@ function App() {
     getAllData()
   },[])
 
-  return <>
-  <Loader/>
-  </>;
+  return (
+    <Products/>
+  );
 }
 
 export default App;

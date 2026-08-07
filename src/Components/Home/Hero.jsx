@@ -16,7 +16,7 @@ export default function Hero() {
         R-Market
       </h1>
       <div className="absolute w-[90%] bottom-40 z-20 left-1/2 -translate-x-1/2 gap-2 flex justify-center">
-        <div className="w-[40%] flex flex-col items-start justify-start mt-10 ">
+        <div className="w-[40%] flex flex-col items-start justify-center mt-10 ">
           <p className="text-gray-300 font-extrabold text-3xl ">
             Discover what fits your style. <br />
             Shop your favorites, explore new finds,

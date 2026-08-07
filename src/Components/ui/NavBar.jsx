@@ -4,7 +4,7 @@ import { useState } from "react";
 
 
 export default function NavBar() {
-  const liStyle = "relative after:absolute after:-bottom-0.5 after:h-[2px] after:w-0 after:bg-green-50 after:transition-all after:duration-900 duration-900 hover:after:w-full after:left-0 font-bold font-serief text-lg text-green-200 cursor-pointer hover:text-green-50"
+  const liStyle = "relative after:absolute after:-bottom-0.5 after:h-[2px] after:w-0 after:bg-green-50 after:transition-all after:duration-900 duration-900 hover:after:w-full after:left-0 font-bold font-serief text-lg text-green-50 cursor-pointer hover:text-slate-50"
   const navigate = useNavigate(); 
   const [loader,setLoader] = useState(false);
 

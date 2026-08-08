@@ -1,4 +1,5 @@
 import Categories from "../../Components/Home/Categories";
+import FeaturedProducts from "../../Components/Home/FeaturedProducts";
 import Hero from "../../Components/Home/Hero";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Hero />
       <Categories/>
+      <FeaturedProducts/>
     </>
   );
 }

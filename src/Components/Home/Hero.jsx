@@ -12,7 +12,7 @@ export default function Hero() {
 
   return (
     <section className="relative mt-20  h-[calc(100vh-100px)] w-full overflow-hidden">
-      <h1 className="absolute text-green-100 top-0 left-0 z-10 w-full text-center text-[15vw] font-spray leading-none ">
+      <h1 className="absolute bg-linear-to-br from-green-300 via-green-100 to-green-50 bg-clip-text text-transparent top-0 left-0 z-10 w-full text-center text-[15vw] font-spray leading-none ">
         R-Market
       </h1>
       <div className="absolute w-[90%] bottom-40 z-20 left-1/2 -translate-x-1/2 gap-2 flex justify-center">

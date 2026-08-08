@@ -1,34 +1,29 @@
-const picsData = [
+const categoriesData = [
   {
-    image: "/public/pic1.jpg",
-    label: "Sweaters",
-    link: "#",
+    id: 1,
+    image: "/pic3.avif",
+    label: "Women Category",
+    // slug is the value that we will use it with the api
+    slug: "women's clothing",
   },
   {
-    image: "/public/pic2.webp",
-    label: "High varity",
-    link: "#",
+    id: 2,
+    image: "/pic6.webp",
+    label: "Men Category",
+    slug: "men's clothing",
   },
   {
-    image: "/public/pic3.avif",
-    label: "Womens section",
-    link: "#",
+    id: 3,
+    image: "/pic5.jpg",
+    label: "Jewelry Collection",
+    slug: "jewelery",
   },
   {
-    image: "/public/pic6.webp",
-    label: "Mens collection",
-    link: "#",
-  },
-  {
-    image: "/public/pic4.webp",
-    label: "Winter collection",
-    link: "#",
-  },
-  {
-    image: "/public/pic5.jpg",
-    label: "Large accessories collection",
-    link: "#",
+    id: 4,
+    image: "/electroinics.webp",
+    label: "Electronics Section",
+    slug: "electronics",
   },
 ];
 
-export default picsData;
+export default categoriesData;

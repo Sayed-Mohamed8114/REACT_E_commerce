@@ -9,7 +9,7 @@ export default function AppRouter() {
     <Routes>
         <Route path={"/"} element={  <MainLayout/>}>
         <Route index element={<Home/>}/>
-        <Route path="/products" element={<Products/>}/>
+        <Route path="allProducts" element={<Products/>}/>
         </Route>
     </Routes>
     </BrowserRouter>

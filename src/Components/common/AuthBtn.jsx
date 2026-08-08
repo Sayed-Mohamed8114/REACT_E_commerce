@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const AuthBtn = ({content}) => {
   return (
     <StyledWrapper>
-      <button> {content}
+      <button type="submit"> {content}
       </button>
     </StyledWrapper>
   );

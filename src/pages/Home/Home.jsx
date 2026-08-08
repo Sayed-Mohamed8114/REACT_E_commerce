@@ -3,6 +3,7 @@ import Categories from "../../Components/Home/Categories";
 import FeaturedProducts from "../../Components/Home/FeaturedProducts";
 import Hero from "../../Components/Home/Hero";
 import PromotionalBanner from "../../Components/Home/PromotionalBanner";
+import NewSlatter from "../../Components/Home/NewSlatter";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <FeaturedProducts/>
       <PromotionalBanner/>
       <WhyChooseUs/>
+      <NewSlatter/>
     </>
   );
 }

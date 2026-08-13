@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import AuthBtn from "../../Components/common/AuthBtn";
 
 export default function NotFound() {
   return (
@@ -9,7 +8,7 @@ export default function NotFound() {
       <h2 className="mt-5 text-3xl text-green-100">Page Not Found</h2>
 
       <p className="mt-3 text-green-100/60">
-        The page you're looking for doesn't exist.
+        The page you're looking for doesn't exist in our store try to back to home.
       </p>
 
         <Link

@@ -3,6 +3,7 @@ import Products from "../pages/Products/Products";
 import Home from "../pages/Home/Home";
 import MainLayout from "../Components/layout/MainLayout";
 import NotFound from "../pages/NotFound/NotFound";
+import ProductDetails from "../pages/ProductDetails/ProductDetails";
 
 export default function AppRouter() {
   return (
@@ -11,6 +12,7 @@ export default function AppRouter() {
         <Route path={"/"} element={<MainLayout />}>
           <Route index element={<Home />} />
           <Route path="allProducts" element={<Products />} />
+          <Route path="products/:id/" element={<ProductDetails/>}/>
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>

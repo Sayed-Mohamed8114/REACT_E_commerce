@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function ProductCard({ product }) {
   const CategoryCapital =
     product.category.charAt(0).toUpperCase() + product.category.slice(1);
@@ -26,9 +28,11 @@ export default function ProductCard({ product }) {
 
         <div className="justify-between flex items-center w-full mb-1
         ">
-          <button className="bg-linear-to-r from-green-50 to-green-100 px-7  py-2 rounded-lg text-black font-extrabold">
-            Add to Cart
-          </button>
+          <Link 
+          to={`/products/:${product.id}`} 
+          className="bg-linear-to-r cursor-pointer  hover:text-green-700 transition-all duration-700 from-green-50 to-green-100 px-7  py-2 rounded-lg text-black font-extrabold">
+            See Details
+          </Link>
           <span className="text-lg font-bold text-green-50">
             <span>{product.rating.rate}★ </span> of
             <span> {product.rating.count} Rates</span>

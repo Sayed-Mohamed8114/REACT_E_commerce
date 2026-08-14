@@ -12,7 +12,7 @@ export default function AppRouter() {
         <Route path={"/"} element={<MainLayout />}>
           <Route index element={<Home />} />
           <Route path="allProducts" element={<Products />} />
-          <Route path="products/:id/" element={<ProductDetails/>}/>
+          <Route path="product/:id" element={<ProductDetails/>}/>
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>

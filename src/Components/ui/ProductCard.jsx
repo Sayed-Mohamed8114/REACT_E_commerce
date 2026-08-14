@@ -29,7 +29,7 @@ export default function ProductCard({ product }) {
         <div className="justify-between flex items-center w-full mb-1
         ">
           <Link 
-          to={`/products/:${product.id}`} 
+          to={`/product/${product.id}`} 
           className="bg-linear-to-r cursor-pointer  hover:text-green-700 transition-all duration-700 from-green-50 to-green-100 px-7  py-2 rounded-lg text-black font-extrabold">
             See Details
           </Link>

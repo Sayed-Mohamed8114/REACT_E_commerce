@@ -2,10 +2,10 @@ import Button from "../common/SocialBtn";
 
 export default function Footer() {
   return (
-    <footer className="mt-20 w-full border-t border-green-200/10 bg-green-300/5 px-8 py-10 backdrop-blur-3xl md:px-12">
+    <footer className="mt-10 w-full border-t border-green-200/10 bg-green-300/5 px-8 py-10 backdrop-blur-3xl md:px-12">
       <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
         <div className="flex flex-col">
-          <h2 className="font-spray text-6xl bg-linear-to-r from-green-200 to-green-50 bg-clip-text text-transparent">
+          <h2 className="font-spray text-4xl lg:text-6xl bg-linear-to-r from-green-200 to-green-50 bg-clip-text text-transparent">
             R-Market
           </h2>
 

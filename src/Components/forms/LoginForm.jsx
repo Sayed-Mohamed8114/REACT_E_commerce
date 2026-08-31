@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { toast } from "sonner";
 import styled from "styled-components";
-import { AuthContext } from "../../Context/AurhContext";
+import { AuthContext } from "../../Context/AuthContext";
 
 const LoginForm = ({ onClose }) => {
   const { login } = useContext(AuthContext);

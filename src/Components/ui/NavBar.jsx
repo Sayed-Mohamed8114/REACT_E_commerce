@@ -1,7 +1,7 @@
 import AuthBtn from "../common/AuthBtn";
 import { useContext, useState } from "react";
 import LoginForm from "../forms/LoginForm";
-import { AuthContext } from "../../Context/AurhContext";
+import { AuthContext } from "../../Context/AuthContext";
 
 export default function NavBar() {
   const liStyle =

@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-const AuthBtn = ({content}) => {
+const AuthBtn = ({content , handleClick}) => {
   return (
     <StyledWrapper>
-      <button type="submit"> {content}
+      <button type="submit" onClick={handleClick}> {content}
       </button>
     </StyledWrapper>
   );

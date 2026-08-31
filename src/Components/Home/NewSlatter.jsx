@@ -1,5 +1,6 @@
 import { useState } from "react";
 import AuthBtn from "../common/AuthBtn";
+import { toast } from "sonner";
 
 export default function NewSlatter() {
   const [email, setEmail] = useState("");
@@ -8,6 +9,7 @@ export default function NewSlatter() {
     if (!email) {
       return;
     }
+    toast.success("Account saved we will be in touch");
     console.log(email);
     setEmail("");
   };
